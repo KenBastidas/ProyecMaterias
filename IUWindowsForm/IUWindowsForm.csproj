@@ -52,6 +52,18 @@
     <Compile Include="FrmAddMateria.Designer.cs">
       <DependentUpon>FrmAddMateria.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmBuscarMateria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBuscarMateria.Designer.cs">
+      <DependentUpon>FrmBuscarMateria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMENU.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMENU.Designer.cs">
+      <DependentUpon>FrmMENU.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmShowMaterias.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,6 +74,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FrmAddMateria.resx">
       <DependentUpon>FrmAddMateria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBuscarMateria.resx">
+      <DependentUpon>FrmBuscarMateria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMENU.resx">
+      <DependentUpon>FrmMENU.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmShowMaterias.resx">
       <DependentUpon>FrmShowMaterias.cs</DependentUpon>

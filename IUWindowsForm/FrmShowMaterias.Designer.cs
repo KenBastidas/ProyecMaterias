@@ -57,10 +57,13 @@ namespace IUWindowsForm
             // 
             // dtShowList
             // 
+            this.dtShowList.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dtShowList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtShowList.Location = new System.Drawing.Point(198, 85);
             this.dtShowList.Name = "dtShowList";
-            this.dtShowList.Size = new System.Drawing.Size(336, 158);
+            this.dtShowList.Size = new System.Drawing.Size(482, 218);
             this.dtShowList.TabIndex = 2;
             // 
             // FrmShowMaterias
