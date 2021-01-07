@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmActualizar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmActualizar.Designer.cs">
+      <DependentUpon>FrmActualizar.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmAddMateria.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +78,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmActualizar.resx">
+      <DependentUpon>FrmActualizar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmAddMateria.resx">
       <DependentUpon>FrmAddMateria.cs</DependentUpon>
     </EmbeddedResource>
@@ -92,6 +101,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -111,6 +121,12 @@
       <Project>{c7fae934-9853-4839-ab55-56812c74bf96}</Project>
       <Name>ProyecMaterias</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
