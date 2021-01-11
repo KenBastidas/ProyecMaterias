@@ -68,8 +68,8 @@ namespace IUWindowsForm
                 //open formulario actualizar
                 FrmActualizar frm1 = new FrmActualizar(IDMateria);
                 frm1.ShowDialog();
-
             }
+            this.cargarGrid();
         }
     }
 }
