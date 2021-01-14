@@ -39,5 +39,11 @@ namespace IUWindowsForm
         {
             this.Close();
         }
+
+        private void btnFrmInformeMaterias_Click(object sender, EventArgs e)
+        {
+            Informes.FrmInformeMaterias k = new Informes.FrmInformeMaterias();
+            k.ShowDialog();
+        }
     }
 }
